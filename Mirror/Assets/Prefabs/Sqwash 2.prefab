@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6647268581842613209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 489868170205641804, guid: ad60bd38d58ed4b4591a5c5f7352c47e,
+        type: 3}
+      propertyPath: m_Name
+      value: Sqwash 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 489868170205641801, guid: ad60bd38d58ed4b4591a5c5f7352c47e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 489868170205641801, guid: ad60bd38d58ed4b4591a5c5f7352c47e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696066207100483353, guid: ad60bd38d58ed4b4591a5c5f7352c47e,
+        type: 3}
+      propertyPath: gravityUp
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3696066207100483353, guid: ad60bd38d58ed4b4591a5c5f7352c47e,
+        type: 3}
+      propertyPath: deathEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 8086399adff2fbe4d987dff51bf0e21a,
+        type: 2}
+    - target: {fileID: 3696066207100483353, guid: ad60bd38d58ed4b4591a5c5f7352c47e,
+        type: 3}
+      propertyPath: finishEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: fcd48e5683450424aa7b4befa4cdf698,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ad60bd38d58ed4b4591a5c5f7352c47e, type: 3}
