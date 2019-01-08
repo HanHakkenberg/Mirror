@@ -96,16 +96,16 @@ public class Movement : MonoBehaviour {
         canMove = false;
         myAnimator.SetTrigger("Finish");
 
-        while (Vector3.Distance(transform.position, newPos) > 0.1) {
-            transform.position = new Vector3(Mathf.Lerp(transform.position.x, newPos.x, Time.deltaTime * finishSpeed), Mathf.Lerp(transform.position.y, newPos.y, Time.deltaTime * finishSpeed), transform.position.z);
-            yield return null;
-        }
-
         if (finish) {
             finishEvent.Raise();
         }
         else {
             finish = true;
+        }
+
+        while (Vector3.Distance(transform.position, newPos) > 0.1) {
+            transform.position = new Vector3(Mathf.Lerp(transform.position.x, newPos.x, Time.deltaTime * finishSpeed), Mathf.Lerp(transform.position.y, newPos.y, Time.deltaTime * finishSpeed), transform.position.z);
+            yield return null;
         }
     }
 }
